@@ -1,0 +1,3 @@
+[submodule "sudoku_py"]
+	path = sudoku_py
+	url = https://github.com/Mohamed-S-Helal/dev1/sudoku_py
