@@ -1,0 +1,14 @@
+<odoo>
+
+  <record id="sale_view_inherit0001" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.sale</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[12]" position="after">
+              <button name="fix_sec_qty" id="fix_sec_qty" string="Fix Secondary QTY" class="btn-primary" type="object"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
